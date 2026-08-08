@@ -14,11 +14,10 @@ const app = express();
 app.use(
   cors({
     origin: [
-  "http://localhost:5173",
-  "https://right-engineering-works-rg9jqd5cb-shivkant-kurmi.vercel.app",
-  "https://right-engineering-works-2p968bwvy-shivkant-kurmi.vercel.app",
-],
-credentials: true,
+      "http://localhost:5173",
+      "https://right-engineering-works.vercel.app",
+    ],
+    credentials: true,
   })
 );
 
