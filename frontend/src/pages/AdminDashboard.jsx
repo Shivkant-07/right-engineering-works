@@ -19,7 +19,7 @@ function AdminDashboard() {
     const fetchEnquiries = async () => {
         try {
             const response = await fetch(
-                "http://localhost:5000/api/admin/enquiries",
+                "https://right-engineering-works.onrender.com/api/admin/enquiries",
                 {
                     credentials: "include",
                 }
@@ -50,7 +50,7 @@ function AdminDashboard() {
 
     const handleLogout = async () => {
         try {
-            await fetch("http://localhost:5000/api/auth/logout", {
+            await fetch("https://right-engineering-works.onrender.com/api/auth/logout", {
                 method: "POST",
                 credentials: "include",
             });
@@ -215,7 +215,7 @@ function AdminDashboard() {
 
                                                         try {
                                                             const response = await fetch(
-                                                                `http://localhost:5000/api/admin/enquiries/${enquiry._id}/status`,
+                                                                `https://right-engineering-works.onrender.com/api/admin/enquiries/${enquiry._id}/status`,
                                                                 {
                                                                     method: "PATCH",
                                                                     headers: {
@@ -354,7 +354,7 @@ function AdminDashboard() {
 
                                                     try {
                                                         const response = await fetch(
-                                                            `http://localhost:5000/api/admin/enquiries/${enquiry._id}`,
+                                                            `https://right-engineering-works.onrender.com/api/admin/enquiries/${enquiry._id}`,
                                                             {
                                                                 method: "DELETE",
                                                                 credentials: "include",
