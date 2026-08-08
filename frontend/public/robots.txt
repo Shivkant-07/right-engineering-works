@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://right-engineering-works-rg9jqd5cb-shivkant-kurmi.vercel.app/sitemap.xml
