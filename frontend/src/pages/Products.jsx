@@ -6,6 +6,7 @@ import {
   FaBoxOpen,
   FaWrench,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const products = [
   {
@@ -148,12 +149,13 @@ function Products() {
               Right Engineering Works.
             </p>
 
-            <a
-              href="/get-quote"
+            <Link
+              to="/get-quote"
               className="inline-block mt-6 bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-lg font-semibold transition"
             >
+               <FaPhoneAlt className="text-xs" />
               Request a Quote
-            </a>
+            </Link>
 
           </div>
 

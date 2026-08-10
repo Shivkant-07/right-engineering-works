@@ -190,7 +190,7 @@ function Footer() {
             <div className="flex items-center gap-5">
 
               <Link
-                to="/contact"
+                to="/get-quote"
                 className="text-xs sm:text-sm text-orange-500 hover:text-orange-400 font-semibold"
               >
                 Request a Quote →
