@@ -5,6 +5,7 @@ import {
   FaTools,
   FaBoxOpen,
   FaWrench,
+  FaPhoneAlt,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
